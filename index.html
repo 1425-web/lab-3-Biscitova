@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 лаба</title>
+    <link rel="stylesheet" href="3.css">
+    <script type="text/javascript" src="3.js"></script>
+</head>
+<body>
+    <div id="header">
+        <h1>Шапка</h1>
+    </div>
+    <div class="krosh">
+        <p>Хлебные крошки</p>
+        <div class="malkrosh"></div>
+        <div class="malkrosh"></div>
+        <div class="malkrosh"></div>
+    </div>
+    <div class="sidebr">
+        <h2>Боковое меню</h2>
+    </div>
+    <img src="photo.jpg" alt="Изображение не прогруженно" class="photo">
+    <div class="bd">
+        <h2>Body</h2>
+        <div class="tx"></div>
+        <div class="tx"></div>
+        <div class="tx"></div>
+        <div class="tx"></div>
+    </div>
+    <button class="open-button" onclick="openForm()">Подпишитесь</button>
+    <div class="form-popup" id="myForm">
+        <form action="#" class="form-container">
+          <h1>Подписаться</h1>
+          <label for="name"><b>Имя</b></label>
+          <input type="text" placeholder="Ваше имя" name="name" required>
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Ваш еmail" name="email" required>
+          <button type="submit" class="btn">Отправить</button>
+          <button type="button" class="btn cancel" onclick="closeForm()">Закрыть</button>
+        </form>
+      </div>
+    <div class="footer">
+        <h2>Подвал</h2>
+    </div>
+</body>
+
+</html>
